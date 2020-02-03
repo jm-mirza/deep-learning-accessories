@@ -1,3 +1,6 @@
+'''
+For renaming all the files in a directory
+'''
 import os
 # Function to rename multiple files
 def main():
