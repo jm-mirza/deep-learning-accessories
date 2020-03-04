@@ -26,7 +26,7 @@ for i in range(len(train_labels)):
     for j in range(len(val_labels)):
 
         if train_labels[i] == val_labels[j]:
-            print('Over-writing... Chutt phatt gai Jay')
+            print('Over-writing... Check Again')
 
 print(len(train_labels), ' ', len(val_labels), 'sum = {}'.format(len(train_labels) + len(val_labels)))
 
