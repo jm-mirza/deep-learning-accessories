@@ -28,7 +28,6 @@ for bindex, blabel in enumerate(annotations_labels):
 for aindex, alabel in enumerate(image_labels):
     base_name_images = (alabel.split('/')[-1]).split('.')[0]    
     base_name_labels = base_name_images        
-    if (base_name_images == base_name_labels):
          #print(base_name_images)
 
 
