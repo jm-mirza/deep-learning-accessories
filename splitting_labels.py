@@ -7,6 +7,7 @@ labels = glob.glob(
     os.path.join('/mnt/data2/fog_dataset_with_labels/images/', '*.' + 'png'))
 
 '''
+###Uncomment this if you only need a text file with base names###
 for index, label in enumerate(labels):
     labels[index] = (label.split('/')[-1]).split('.')[0]
 '''
